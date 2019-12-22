@@ -30,16 +30,26 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet" />
     <style>
-      .portfolio-image-container {
-        width: 200px;
+      .image-container {
         height: 200px;
+        width: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
       }
 
-      .portfolio-image-container img {
-        width: 100%;
-        height: 100%;
-        object-position: center;
-        object-fit: contain;
+      .image-container--1 {
+        background-image: url("./img/theEstate.png");
+        background-size: cover;
+      }
+
+      .image-container--2 {
+        background-image: url("./img/sproutFoods.png");
+        background-size: cover;
+      }
+
+      .image-container--3 {
+        background-image: url("./img/bobsBookNook.png");
+        background-size: cover;
       }
     </style>
   </head>
@@ -121,13 +131,10 @@
             <a href="mailto:bmc1793@icloud.com">bmc1793@icloud.com</a>
           </div>
           <p class="lead mb-5">
-            Full Stack web development stuende with a passion for building
-            dynamic user experieces which drive user engagment. Experienced in
-            object-oriented programming, debugging, responsive web development,
-            database desing and implementation, frontend build tools, and
-            version control software. Currently learning SEO, iOS "Swift", and
-            React JS. Looking to transition into an internship or entry level
-            developer position.
+            Web development student with a passion for building dynamic user
+            experiences. Experience with a varienty of tools both frontend and
+            backend. Currently learning SEO, iOS "Swift", and React JS. Looking
+            to transition into an internship or entry level developer position.
           </p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/collins777/">
@@ -239,43 +246,72 @@
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
-              <h3 class="mb-0">The Estate</h3>
+              <h3 class="mb-0">
+                <a href="https://sleepy-leakey-df88fa.netlify.com/"
+                  >The Estate</a
+                >
+              </h3>
               <div class="subheading mb-3"></div>
               <p>
                 HTML5 / CSS3
               </p>
-            </div>
-            <div class="portfolio-image-container">
-              <img src="./img/theEstate.png" alt="" />
-            </div>
-          </div>
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Sprout Foods</h3>
-              <div class="subheading mb-3"></div>
               <p>
-                HTML5 / CSS3 / JavaScript / jQuery / XML / JSON /
+                <a href="https://github.com/collins777/theEstate"
+                  >View Code on Github</a
+                >
               </p>
             </div>
-            <div class="portfolio-image-container">
-              <img src="./img/sproutFoods.png" alt="" />
-            </div>
+            <a href="https://sleepy-leakey-df88fa.netlify.com/">
+              <div class="image-container image-container--1"></div
+            ></a>
           </div>
           <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
-              <h3 class="mb-0">Bobs Book Nook</h3>
+              <h3 class="mb-0">
+                <a href="https://naughty-bassi-9329d3.netlify.com/index.html"
+                  >Sprout Foods</a
+                >
+              </h3>
+              <div class="subheading mb-3"></div>
+              <p>
+                HTML5 / CSS3 / JavaScript / jQuery / XML / JSON
+              </p>
+              <p>
+                <a href="https://github.com/collins777/sproutfoods"
+                  >View Code on Github</a
+                >
+              </p>
+            </div>
+            <a href="https://naughty-bassi-9329d3.netlify.com/index.html">
+              <div class="image-container image-container--2"></div
+            ></a>
+          </div>
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">
+                <a
+                  href="http://collinsb527.windows.macombserver.net/itwp2300/bobsbooknook5/admin.aspx"
+                  >Bobs Book Nook</a
+                >
+              </h3>
               <div class="subheading mb-3"></div>
               <p>
                 HTML5 / CSS3 / ASP.NET / C#
               </p>
+              <p>
+                <a href="https://github.com/collins777/bobsBookNook"
+                  >View Code on Github</a
+                >
+              </p>
             </div>
-            <div class="portfolio-image-container">
-              <img src="./img/bobsBookNook.png" alt="" />
-            </div>
+            <a
+              href="http://collinsb527.windows.macombserver.net/itwp2300/bobsbooknook5/admin.aspx"
+              ><div class="image-container image-container--3"></div
+            ></a>
           </div>
         </div>
       </section>
